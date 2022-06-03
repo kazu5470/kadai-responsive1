@@ -60,10 +60,10 @@ main {
 }
 
 .title {
-   margin:15,0,5px;
+   margin:15px 0 5px;
 }
 
 footer {
     height:50px;
-    background-color:#EEEEEE;
+    background-color:#AAAAAA;
 }
