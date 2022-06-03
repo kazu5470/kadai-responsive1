@@ -77,12 +77,13 @@ main {
 
 .step {
     width: 90%;
-    margin-bottom: 20px;
+    margin: 20px 5% 20px 5%;
     display: block;
 }
     
 .step-img1 {
     height: 150px;
+    
 }
 
 .step-img2 {
