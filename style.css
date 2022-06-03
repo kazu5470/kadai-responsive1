@@ -10,27 +10,60 @@ header {
     background-color:#ff9a4b;
 }
 
-.main {
+main {
     width: 960px;
-    height: 50px;
+    margin: 50px auto;
     display: flex;
 }
 
 .step {
     width: 300px;
-    margin:30px;
-    background-color:#EEEEEE;
+    margin-right:30px;
     padding:10px;
+    background-color:#EEEEEE;
     position:relative;
 }
+
+.step:last-child {
+    margin-right: 0;
+}
+
 .step-img1 {
     height: 150px;
     background-image: url(img/flow01.png);
+    background-position: bottom;
+    background-size: cover
+    
+}
+
+.step-img2 {
+    height: 150px;
+    background-image:url(img/flow02.png);
+    background-position: bottom;
     background-size: cover;
     
+}
+
+.step-img3 {
+  height: 150px;
+  background-image: url(img/flow03.png);
+  background-position: bottom;
+  background-size: cover;
+}
+
+.step-number {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #ff9a4b;
+  color: #fff;
 }
 
 .title {
    margin:15,0,5px;
 }
 
+footer {
+    height:50px;
+    background-color:#EEEEEE;
+}
